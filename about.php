@@ -1,4 +1,3 @@
-
 <?php 
 $name="Дмитрий Родоманов";
 $age="41";
@@ -9,11 +8,8 @@ $about="Студент группы 'Курс PHP/SQL: back-end разработ
 
 <h1>Страница пользователя Дмитрий Родоманов</h1>
 
-<?php 
-echo "Имя: ", $name, "<br>";
-echo "Возраст: ", $age, "<br>";
-echo "e-mail: ", $email, "<br>";
-echo "Город: ", $city, "<br>";
-echo "О себе: ", $about, "<br>";
-?>
-
+Имя: <? echo $name, "<br>";?>
+Возраст: <? echo $age, "<br>";?>
+e-mail: <? echo $email, "<br>";?>
+Город:  <? echo $city, "<br>";?>
+О себе: <? echo $about,"<br>";?>
